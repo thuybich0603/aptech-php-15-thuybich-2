@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 800px;
+    margin : 0 auto;
+}
+.tabs{
+    width:400px;
+}
+.tabs ul li{
+    float: left;
+    background-color: aqua;
+    padding: 8px 16px;
+    margin-right: 3px;
+    list-style: none inside;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    cursor: pointer;
+} 
+.tabs div{
+    clear: both;
+    background-color: blue;
+    border :1px solid black; 
+    padding: 20px;
+}
+.tabs div.hide{
+    display : none;
+}
+.tabs ul li.active{
+    background-color: black;
+    color: white;
+    padding-bottom: 6px;
+    
+}
